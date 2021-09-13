@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace FactoryMethod
+﻿namespace FactoryMethod.Src
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new Client().Main();
         }
     }
 }
